@@ -1,20 +1,6 @@
 ---
-# front matter tells Jekyll to process Liquid
-title: Home | Jekyll
-msg: Welcome
+layout: default
+title: Home
 ---
 
-<!doctype html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-</head>
-
-<body>
-    <h1>{{ "Hello World!" | downcase }}</h1>
-    {{ page.msg }}
-</body>
-
-</html>
+<h1>{{ "Hello World!" | downcase }}</h1>
